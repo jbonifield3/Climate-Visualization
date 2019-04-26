@@ -5,7 +5,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
-import flask
 
 from temperature import load_temperature_data, get_temperature_min_and_max
 from co2 import get_CO2
@@ -16,6 +15,12 @@ external_stylesheets = [
     'https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css',
     'https://codepen.io/chriddyp/pen/bWLwgP.css'
 ]
+
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
+
+START_YEAR = 1980
+END_YEAR = 2013
 
 #Check if data directory exists and if not create it
 if not os.path.exists('data'):
@@ -33,13 +38,6 @@ power_df = load_power_data()
 MIN_TEMPS, MAX_TEMPS = get_temperature_min_and_max(temp_df)
 MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
 MIN_CO2 = 0
-
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = flask.Flask(__name__)
-server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
-
-START_YEAR = 1980
-END_YEAR = 2013
 
 app.layout = html.Div(children=[
     html.Div(
@@ -264,4 +262,4 @@ def update_figure(data_selection, year, temp_avg_window, power_class):
 
 
 if __name__ == '__main__':
-    app.server.run(debug=True, threaded=True)
+    app.run_server(host='0.0.0.0', debug=True)
