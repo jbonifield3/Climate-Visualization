@@ -1,0 +1,11 @@
+body {
+    padding: 40px;
+}
+
+#select-data label, #data-filters label {
+    font-weight: unset;
+}
+
+.hidden {
+    display: none;
+}
