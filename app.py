@@ -5,6 +5,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
+import flask
 
 from temperature import load_temperature_data, get_temperature_min_and_max
 from co2 import get_CO2
@@ -17,7 +18,8 @@ external_stylesheets = [
 ]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
+server = flask.Flask(__name__)
+server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
 
 START_YEAR = 1980
 END_YEAR = 2013
@@ -261,4 +263,4 @@ if __name__ == '__main__':
     MIN_TEMPS, MAX_TEMPS = get_temperature_min_and_max(temp_df)
     MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
     MIN_CO2 = 0
-    app.run_server(host='0.0.0.0', debug=True)
+    app.server.run(debug=True, threaded=True)
