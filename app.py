@@ -17,6 +17,23 @@ external_stylesheets = [
     'https://codepen.io/chriddyp/pen/bWLwgP.css'
 ]
 
+#Check if data directory exists and if not create it
+if not os.path.exists('data'):
+    os.makedirs('data')
+
+# Load & process datasets
+temp_df = load_temperature_data()
+
+co2_df = get_CO2(dta_type='State') #Load in all the state information
+co2_df = co2_df.groupby(['STT']).sum().reset_index() #group by the state
+
+power_df = load_power_data()
+
+# Calculate constants
+MIN_TEMPS, MAX_TEMPS = get_temperature_min_and_max(temp_df)
+MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
+MIN_CO2 = 0
+
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = flask.Flask(__name__)
 server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
@@ -247,20 +264,4 @@ def update_figure(data_selection, year, temp_avg_window, power_class):
 
 
 if __name__ == '__main__':
-    #Check if data directory exists and if not create it
-    if not os.path.exists('data'):
-        os.makedirs('data')
-
-    # Load & process datasets
-    temp_df = load_temperature_data()
-
-    co2_df = get_CO2(dta_type='State') #Load in all the state information
-    co2_df = co2_df.groupby(['STT']).sum().reset_index() #group by the state
-
-    power_df = load_power_data()
-
-    # Calculate constants
-    MIN_TEMPS, MAX_TEMPS = get_temperature_min_and_max(temp_df)
-    MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
-    MIN_CO2 = 0
     app.server.run(debug=True, threaded=True)
