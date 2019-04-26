@@ -19,6 +19,7 @@ external_stylesheets = [
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
     static_folder='static'
     )
+server = app.server
 
 START_YEAR = 1980
 END_YEAR = 2013
