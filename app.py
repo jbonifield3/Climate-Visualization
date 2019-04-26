@@ -16,9 +16,7 @@ external_stylesheets = [
     'https://codepen.io/chriddyp/pen/bWLwgP.css'
 ]
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
-    static_folder='static'
-    )
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 START_YEAR = 1980
@@ -264,5 +262,4 @@ if __name__ == '__main__':
     MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
     MIN_CO2 = 0
 
-    app.run_server(debug=True)
-
+    app.run_server(host='0.0.0.0', debug=True)
