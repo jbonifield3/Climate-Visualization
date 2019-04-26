@@ -261,5 +261,4 @@ if __name__ == '__main__':
     MIN_TEMPS, MAX_TEMPS = get_temperature_min_and_max(temp_df)
     MAX_CO2 = co2_df.loc[:, co2_df.columns != 'STT'].max().max()
     MIN_CO2 = 0
-
-app.run_server(host='0.0.0.0', debug=True)
+    app.run_server(host='0.0.0.0', debug=True)
