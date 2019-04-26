@@ -1,0 +1,256 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{14}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Andres, Marland, Fung, Matthews, and
+  Brenkert}{Andres et~al\mbox{.}}{1997}]%
+        {Foosil_fuel_burning_andres1997geographic}
+\bibfield{author}{\bibinfo{person}{Robert~J Andres}, \bibinfo{person}{Gregg
+  Marland}, \bibinfo{person}{Inez Fung}, \bibinfo{person}{Elaine Matthews},
+  {and} \bibinfo{person}{Antoinette~L Brenkert}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Geographic Patterns of Carbon Dioxide
+  Emissions from Fossil-Fuel Burning$\backslash$, Hydraulic Cement
+  Production$\backslash$, and Gas Flaring on a One Degree by One Degree Grid
+  Cell Basis: 1950 to 1990 (NDP: 058)(Issued March, 1997)}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Carbon
+  Dioxide Information Analysis Center (CDIAC); Oak Ridge National Lab~…}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bruninx, Madzharov, Delarue, and
+  D'haeseleer}{Bruninx et~al\mbox{.}}{2013}]%
+        {Comfort_1_Bruninx}
+\bibfield{author}{\bibinfo{person}{Kenneth Bruninx}, \bibinfo{person}{Darin
+  Madzharov}, \bibinfo{person}{Erik Delarue}, {and} \bibinfo{person}{William
+  D'haeseleer}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Impact of the German nuclear phase-out on Europe's
+  electricity generation—A comprehensive study}.
+\newblock \bibinfo{journal}{\emph{Energy Policy}}  \bibinfo{volume}{60}
+  (\bibinfo{year}{2013}), \bibinfo{pages}{251 -- 261}.
+\newblock
+\showISSN{0301-4215}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.enpol.2013.05.026}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Dockerty, Lovett, Sünnenberg, Appleton, and
+  Parry}{Dockerty et~al\mbox{.}}{2005}]%
+        {Rural_Landscape_DockertyTrudie2005Vtpi}
+\bibfield{author}{\bibinfo{person}{Trudie Dockerty}, \bibinfo{person}{Andrew
+  Lovett}, \bibinfo{person}{Gilla Sünnenberg}, \bibinfo{person}{Katy
+  Appleton}, {and} \bibinfo{person}{Martin Parry}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Visualising the potential impacts of climate change
+  on rural landscapes}.
+\newblock \bibinfo{journal}{\emph{Computers, Environment and Urban Systems}}
+  \bibinfo{volume}{29}, \bibinfo{number}{3} (\bibinfo{year}{2005}),
+  \bibinfo{pages}{297--320}.
+\newblock
+\showISSN{0198-9715}
+
+
+\bibitem[\protect\citeauthoryear{Fitzpatrick and Dunn}{Fitzpatrick and
+  Dunn}{2019}]%
+        {Comfort_4_FitzpatrickMatthew2019Ccaf}
+\bibfield{author}{\bibinfo{person}{Matthew Fitzpatrick} {and}
+  \bibinfo{person}{Robert Dunn}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Contemporary climatic analogs for 540 North
+  American urban areas in the late 21st century}.
+\newblock \bibinfo{journal}{\emph{Nature Communications}} \bibinfo{volume}{10},
+  \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{1--7}.
+\newblock
+\showISSN{20411723}
+\urldef\tempurl%
+\url{http://search.proquest.com/docview/2178969657/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{García-Gusano, Martín-Gamboa, Iribarren, and
+  Dufour}{García-Gusano et~al\mbox{.}}{2016}]%
+        {Endogenous_resources5040039}
+\bibfield{author}{\bibinfo{person}{Diego García-Gusano},
+  \bibinfo{person}{Mario Martín-Gamboa}, \bibinfo{person}{Diego Iribarren},
+  {and} \bibinfo{person}{Javier Dufour}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Prospective Analysis of Life-Cycle Indicators
+  through Endogenous Integration into a National Power Generation Model}.
+\newblock \bibinfo{journal}{\emph{Resources}} \bibinfo{volume}{5},
+  \bibinfo{number}{4} (\bibinfo{year}{2016}).
+\newblock
+\showISSN{2079-9276}
+\urldef\tempurl%
+\url{https://doi.org/10.3390/resources5040039}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Golombek, Kittelsen, and Haddeland}{Golombek
+  et~al\mbox{.}}{2012}]%
+        {Western_Europe_GolombekRolf2012Ccio}
+\bibfield{author}{\bibinfo{person}{Rolf Golombek}, \bibinfo{person}{Sverre
+  Kittelsen}, {and} \bibinfo{person}{Ingjerd Haddeland}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Climate change: impacts on electricity markets in
+  Western Europe}.
+\newblock \bibinfo{journal}{\emph{Climatic Change}} \bibinfo{volume}{113},
+  \bibinfo{number}{2} (\bibinfo{year}{2012}), \bibinfo{pages}{357--370}.
+\newblock
+\showISSN{0165-0009}
+
+
+\bibitem[\protect\citeauthoryear{Hammons}{Hammons}{2006}]%
+        {Comfort_2_HammonsT2006IoEP}
+\bibfield{author}{\bibinfo{person}{T Hammons}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Impact of Electric Power Generation on Green House
+  Gas Emissions in Europe: Russia, Greece, Italy and Views of the EU Power
+  Plant Supply Industry - A Critical Analysis}.
+\newblock \bibinfo{journal}{\emph{International Journal of Electrical Power \&
+  Energy Systems}} \bibinfo{volume}{28}, \bibinfo{number}{8}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{548--564}.
+\newblock
+\showISSN{0142-0615}
+\urldef\tempurl%
+\url{http://search.proquest.com/docview/14790114/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Heal}{Heal}{2017}]%
+        {reduce_greenhouse_rex014}
+\bibfield{author}{\bibinfo{person}{Geoffrey Heal}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{Reflections—What Would It Take to Reduce U.S.
+  Greenhouse Gas Emissions 80 Percent by 2050?}}
+\newblock \bibinfo{journal}{\emph{Review of Environmental Economics and
+  Policy}} \bibinfo{volume}{11}, \bibinfo{number}{2} (\bibinfo{date}{07}
+  \bibinfo{year}{2017}), \bibinfo{pages}{319--335}.
+\newblock
+\showISSN{1750-6816}
+\urldef\tempurl%
+\url{https://doi.org/10.1093/reep/rex014}
+\showDOI{\tempurl}
+\showeprint{http://oup.prod.sis.lan/reep/article-pdf/11/2/319/19530563/rex014.pdf}
+
+
+\bibitem[\protect\citeauthoryear{Khan, Alam, and Alam}{Khan
+  et~al\mbox{.}}{2013}]%
+        {Bangladesh_KHAN20131460}
+\bibfield{author}{\bibinfo{person}{Iftekhar Khan}, \bibinfo{person}{Firoz
+  Alam}, {and} \bibinfo{person}{Quamrul Alam}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{The global climate change and its effect on power
+  generation in Bangladesh}.
+\newblock \bibinfo{journal}{\emph{Energy Policy}}  \bibinfo{volume}{61}
+  (\bibinfo{year}{2013}), \bibinfo{pages}{1460 -- 1470}.
+\newblock
+\showISSN{0301-4215}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.enpol.2013.05.005}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Klein}{Klein}{2016}]%
+        {Emission_trend_KLEIN201633}
+\bibfield{author}{\bibinfo{person}{Daniel~E. Klein}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{CO2 emission trends for the US and electric power
+  sector}.
+\newblock \bibinfo{journal}{\emph{The Electricity Journal}}
+  \bibinfo{volume}{29}, \bibinfo{number}{8} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{33 -- 47}.
+\newblock
+\showISSN{1040-6190}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.tej.2016.09.008}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Koy}{Koy}{2014}]%
+        {California_Report}
+\bibfield{author}{\bibinfo{person}{Kevin; Maggi Kelly; Brian~Galey Koy}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Cal-Adapt: Visualizing Climate Change Risk and
+  Adaptation Options for California.}
+\newblock  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nocke, STERZEL, Böttinger, and Wrobel}{Nocke
+  et~al\mbox{.}}{2008}]%
+        {Overview_article}
+\bibfield{author}{\bibinfo{person}{Thomas Nocke}, \bibinfo{person}{Till
+  STERZEL}, \bibinfo{person}{Michael Böttinger}, {and} \bibinfo{person}{Markus
+  Wrobel}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Visualization of Climate and Climate Change Data:
+  An Overview}.
+\newblock \bibinfo{journal}{\emph{in Ehlers et al. (Eds.) Digital Earth Summit
+  on Geoinformatics 2008: Tools for Global Change Research (ISDE'08), Wichmann,
+  Heidelberg, pp. 226-232, 2008}} (\bibinfo{date}{01} \bibinfo{year}{2008}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rohde, Muller, Jacobsen, Perlmutter,
+  Rosenfeld, Wurtele, Curry, Wickham, and Mosher}{Rohde et~al\mbox{.}}{2013}]%
+        {Berkeley_Earth_temp_rohde2013berkeley}
+\bibfield{author}{\bibinfo{person}{Robert Rohde}, \bibinfo{person}{Richard
+  Muller}, \bibinfo{person}{Robert Jacobsen}, \bibinfo{person}{Saul
+  Perlmutter}, \bibinfo{person}{Arthur Rosenfeld}, \bibinfo{person}{Jonathan
+  Wurtele}, \bibinfo{person}{Judith Curry}, \bibinfo{person}{Charlotte
+  Wickham}, {and} \bibinfo{person}{Steven Mosher}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Berkeley earth temperature averaging process}.
+\newblock \bibinfo{journal}{\emph{Geoinfor. Geostat.: An Overview}}
+  \bibinfo{volume}{1}, \bibinfo{number}{2} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Stocker}{Stocker}{2014}]%
+        {Climate_change_2013_stocker2014climate}
+\bibfield{author}{\bibinfo{person}{Thomas Stocker}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Climate change 2013: the physical science
+  basis: Working Group I contribution to the Fifth assessment report of the
+  Intergovernmental Panel on Climate Change}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+
+
+\end{thebibliography}
